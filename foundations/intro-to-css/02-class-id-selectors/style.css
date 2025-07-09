@@ -1,6 +1,10 @@
-.red {
+.red-odd {
   background-color: #ff9595d0;
-  font-family: "Verdana DejaVu Sans", sans-serif;
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.medium {
+  font-size: 24px;
 }
 
 #blue-text {
@@ -11,8 +15,4 @@
 #green {
   background-color: #78ff78e0;
   font-weight: bold;
-}
-
-.medium {
-  font-size: 24px;
 }
