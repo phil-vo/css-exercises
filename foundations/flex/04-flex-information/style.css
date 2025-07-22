@@ -5,7 +5,6 @@ body {
 img {
   width: 100px;
   height: 100px;
-  margin: 0px auto;
 }
 
 .title {
@@ -19,16 +18,15 @@ img {
 .plants {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  flex-wrap: wrap;
+  gap: 52px;
 }
 
 .barberry,
 .chili,
 .pepper,
 .saffron {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
+  text-align: center;
   width: 200px;
 }
 
