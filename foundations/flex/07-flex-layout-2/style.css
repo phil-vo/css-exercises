@@ -25,6 +25,7 @@ body {
   justify-content: center;
   align-items: center;
   justify-self: flex-end;
+  margin-top: auto;
 }
 
 .sidebar {
@@ -32,6 +33,7 @@ body {
   background: royalblue;
   box-sizing: border-box;
   flex: 1 0 auto;
+  padding: 16px;
 }
 
 .sidebar ul {
@@ -41,7 +43,7 @@ body {
 }
 
 .sidebar li {
-  margin: 16px;
+  margin: 0 0 16px 0;
 }
 
 .sidebar a {
@@ -56,23 +58,23 @@ body {
   border-radius: 4px;
   width: 300px;
   height: 200px;
-  margin: 16px;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  max-height: inherit;
   min-height: inherit;
-  height: inherit;
 }
 
 .middle {
   display: flex;
+  align-items: stretch;
+  flex: 1;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
-  margin: 32px;
+  gap: 32px;
+  padding: 48px;
 }
